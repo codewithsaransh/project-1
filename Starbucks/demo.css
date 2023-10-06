@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+
+}
+body{
+    background: color #d4d3d3;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: 0 10px;
+    height: 80px;
+}
+nav img{
+    height: 70px;
+}
+nav input{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 25px;
+    width: 30%;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+#ss:hover
+{
+    background-color:  rgb(172, 173, 169);
+    color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 400px;
+    font-family: cursive;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Aus{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+    background-color:#017143;
+}
+#Aus:hover
+{
+    color: yellow;
+    text-decoration: underline;
+}
+nav ul li{
+    transition: 0.5s;
+    cursor: pointer;
+}
+nav ul li:hover{ /* : ke baad likhi cheez ko sudo classes khte h*/
+    padding: 10px 20px;
+    color: white;
+    border-radius: 25px;
+    background-color:#017143;
+    text-decoration: underline;
+}
+main{
+    /* background-color: teal; */
+    height: 82vh;
+    width: 93vw;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    box-shadow:5px 5px 50px gray;
+    display: flex;
+}
+#First
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#Content
+{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: cursive;
+    width: 100%;
+    padding: 0 15px;
+}
+
+#Content:hover #Line
+{
+  background-color: aqua;
+  width: 80%;
+}
+#Content:hover #sm
+{
+    background-color: #017143;
+    width: 100%;
+}
+#Content:hover #on
+{
+    background-color: gray;
+    color:black;
+    /* width: 50%; */
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 0 auto;
+}
+#content p
+{
+ font-family: sans-serif;
+ margin-top: 15px;
+ /* text-align: center; */
+ width: 80%;
+}
+#Content:hover  p
+{
+    font-style: italic;
+    transition: 0.3s;
+}
+#Line
+{
+    height: 4px;
+    width: 60%;
+    background-color: #017143;
+    margin: 15px 0;
+    transition: 0.5s;
+
+}
+#btn
+{
+    /* width: 60%; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-top: 20px;
+}
+#sm
+{
+    padding: 10px 25px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: gray;
+    margin: 0 10px;
+    /* color: white; */
+    transition: 0.5s;
+
+}
+#on
+{
+    padding: 10px 25px;
+    margin: 0 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color:#017143 ;
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#Second
+{
+    height: 100%;
+    width: 50%;
+    /* background-color: lawngreen; */
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+#blob
+{
+    width: 90%;
+}
+#coffee
+{
+
+    height: 80%;
+    position: absolute;
+    transition: 0.5s;
+
+}
+#coffee:hover{
+    transform: scale(1.1) rotate(15deg);
+}
+
+
+
+
+
+
+
+
